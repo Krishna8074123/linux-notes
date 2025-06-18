@@ -697,3 +697,76 @@ Enable Swap
 swapon /dev/sdX
 Disable Swap
 swapoff /dev/sdX
+ ######################Linux System Administration Tasks & RCA Topics##############################3
+1. Patching
+Applying updates to the OS or kernel for security, bug fixes, or performance improvements.
+
+2. Performance Issues
+Investigating slow system behavior caused by high CPU, memory, disk, or I/O usage.
+
+3. RCA (Root Cause Analysis)
+Identifying the underlying reason for a system issue or failure.
+
+4. Hardware Replacement
+Replacing faulty components like:
+
+Hard Disk
+
+Power supply
+
+Motherboard
+
+NIC (Network Interface Card)
+
+5. OS-Level Issues (Red Hat Care)
+Problems related to:
+
+OS bugs
+
+Package conflicts
+
+Boot issues
+
+System crashes
+(You may contact Red Hat support for enterprise-level help.)
+
+6. NFS / CIFS / NAS Share Issues
+Troubleshooting network file sharing problems:
+
+NFS: Linux file sharing
+
+CIFS/SMB: Windows-compatible sharing
+
+NAS: Network-attached storage access problems
+
+7. File System Issues
+Repairing or managing file systems like:
+
+ext4, xfs, btrfs
+
+Mount failures
+
+Corruption recovery (fsck, xfs_repair)
+
+8. NIC Card Changes
+Replacing or configuring a Network Interface Card due to failure or performance issues.
+
+9. Vulnerability / Bug Fixes
+Applying patches or mitigation for known security vulnerabilities (e.g., via yum, dnf, rpm, or Red Hat advisories).
+
+10. Booting Issues
+Troubleshooting system boot failures using:
+
+GRUB repair
+
+initrd/initramfs
+
+Rescue mode
+
+11. Memory / CPU / Swap Upgrades
+Memory (RAM): Adding more RAM
+
+CPU: Upgrading or reconfiguring CPU cores
+
+Swap: Increasing swap space via partition or swapfile
+
